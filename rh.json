@@ -1,0 +1,205 @@
+{
+  "basics": {
+    "name": "Baltasar Benitez",
+    "label": "Fronted Developer",
+    "image": "",
+    "email": "baltaarex363@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "Me llamo Batasar Benitez, pero mis amigos me dicen Balti o Balta. Empecé en la programación a mitad del 2023 porque estaba aburrido. Actualmente estoy buscando trabajo. Me interesé en un bootcamp de Desarrollo Web. Trabajando con HTML & CSS. Implemente las prácticas de versionado de código con GIT, y preprocesadores como SASS. Al finalizar, supe cómo aplicar Bootstrap a mis proyectos, y lo importante del SEO en el desarrollo. Para entregar el proyecto final subirlo a un servido grautitio y como a interactuar con este servicio. En marzo de 2024 termine el bootcamp de Desarrollo Frontend React. Donde aprendi, el manejo de rutas utilizando Firebase, y comprendi el uso del virtual DOM mediante los componentes de React JS.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Gran Buenos Aires",
+      "countryCode": "ARG",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Baltasar Benitez",
+        "url": ""
+      },
+      {
+        "network": "x",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "GitHub",
+        "username": "BaltaBenitez",
+        "url": "https://github.com/baltabenitez"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": null,
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "",
+    "position": "",
+    "url": "",
+    "startDate": "",
+    "endDate": "",
+    "summary": "",
+    "highlights": [
+      ""
+    ]
+  }],
+  "education": [{
+    "institution": "",
+    "url": "",
+    "area": "",
+    "studyType": "",
+    "startDate": "",
+    "endDate": "",
+    "score": "",
+    "courses": [
+      ""
+    ]
+  }],
+  "awards": [{
+    "title": "",
+    "date": "",
+    "awarder": "",
+    "summary": ""
+  }],
+  "certificates": [{
+    "name": "",
+    "date": "",
+    "issuer": "",
+    "url": ""
+  }],
+  "publications": [{
+    "name": "",
+    "publisher": "",
+    "releaseDate": "",
+    "url": "",
+    "summary": ""
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "BootsTrap",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Basico",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Basico"
+    }
+  ],
+  "interests": [{
+    "name": "",
+    "keywords": [
+      ""
+    ]
+  }],
+  "references": [{
+    "name": "",
+    "reference": ""
+  }],
+  "projects": [
+    {
+      "name": "Arena Sport gym",
+      "isActive": true,
+      "description": "",
+      "highlights": [
+        "",
+        ""
+      ],
+      "url": ""
+    },
+    {
+      "name": "",
+      "isActive": true,
+      "description": "",
+      "highlights": [
+        "",
+        "",
+        ""
+      ],
+      "url": ""
+    }
+  ]
+}  

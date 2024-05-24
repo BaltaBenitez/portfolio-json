@@ -1,0 +1,202 @@
+{
+  "basics": {
+    "name": "Baltasar Benitez",
+    "label": "Fronted Developer React",
+    "image": "/hero1.webp",
+    "email": "baltaarex363@gmail.com",
+    "phone": "",
+    "url": "https://midu.dev",
+    "summary": "Me llamo Batasar, pero mis amigos me dicen Balti o Balta. Empecé en la programación a mitad del 2023 porque estaba aburrido. Actualmente estoy buscando trabajo. Me interesé en un bootcamp de Desarrollo Web. Trabajando con HTML & CSS. Implemente las prácticas de versionado de código con GIT, y preprocesadores como SASS. En marzo de 2024 termine el bootcamp de Desarrollo Frontend React. Donde aprendi, el manejo de rutas utilizando Firebase, y comprendi el uso del virtual DOM mediante los componentes de React JS.",
+    "location": {
+      "address": "",
+      "postalCode": "b1686",
+      "city": "Gran Buenos Aires",
+      "countryCode": "ARG",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Baltasar Benitez",
+        "url": "https://linkedin.com/in/midudev"
+      },
+      {
+        "network": "GitHub",
+        "username": "BaltaBenitez",
+        "url": "https://github.com/baltabenitez"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": null,
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "",
+    "position": "",
+    "url": "",
+    "startDate": "",
+    "endDate": "",
+    "summary": "",
+    "highlights": [
+      ""
+    ]
+  }],
+  "education": [{
+    "institution": "",
+    "url": "",
+    "area": "",
+    "studyType": "",
+    "startDate": "",
+    "endDate": "",
+    "score": "",
+    "courses": [
+      ""
+    ]
+  }],
+  "awards": [{
+    "title": "",
+    "date": "",
+    "awarder": "",
+    "summary": ""
+  }],
+  "certificates": [{
+    "name": "",
+    "date": "",
+    "issuer": "",
+    "url": ""
+  }],
+  "publications": [{
+    "name": "",
+    "publisher": "",
+    "releaseDate": "",
+    "url": "",
+    "summary": ""
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "Arena Spot Gym",
+      "description": "Sitio web estático para la promoción de gimnasios, diseñado con HTML y CSS. Incluye información sobre el gimnasio, horarios de clases y detalles de contacto.",
+      "highlights": [
+        "Diseño responsivo",
+        "Fácil de navegar"
+      ],
+      "url": "https://arenasportgym.netlify.app/"
+    },
+    {
+      "name": "Red bull",
+      "description": "Tienda en línea de productos Red Bull, desarrollada con React, Context API, sin métodos de pago integrados.",
+      "highlights": [
+        "Diseño responsivo",
+        "React y Context"
+      ],
+      "url": "https://rb-19.netlify.app/"
+    },
+    {
+      "name": "Red bull",
+      "description": "Tienda en línea de productos Red Bull, desarrollada con React, Context API y Firebase, sin métodos de pago integrados.",
+      "highlights": [
+        "React, Context API",
+        "Base de datos en tiempo real con Firebase"
+      ],
+      "url": "https://rb-20.netlify.app/"
+    },
+    {
+      "name": "Astro & Tailwind",
+      "description": "Sitio web de dos páginas creado con Astro y TailwindCSS para aprender y experimentar con estas tecnologías.",
+      "highlights": [
+        "Desarrollado con Astro",
+        "Estilizado con TailwindCSS"
+      ],
+      "url": "https://astro-twcss.netlify.app/"
+    }
+  ]
+}
