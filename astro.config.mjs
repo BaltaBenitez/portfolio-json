@@ -3,11 +3,11 @@ import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
 export default defineConfig({
-    output: 'server',
-    adapter: netlify({
-      edgeMiddleware: true
-    }),
-    devToolbar: {
-        enabled: false
-    }
+  devToolbar: {
+    enabled: false
+  },
+  output: 'server',
+  adapter: netlify({
+    edgeMiddleware: true
+  })
 });

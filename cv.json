@@ -2,7 +2,7 @@
   "basics": {
     "name": "Baltasar Benitez",
     "label": "Fronted Developer React",
-    "image": "/hero1.webp",
+    "image": "me.webp",
     "email": "baltaarex363@gmail.com",
     "phone": "",
     "url": "https://midu.dev",
@@ -164,6 +164,8 @@
   "projects": [
     {
       "name": "Arena Spot Gym",
+      "isActive": false,
+      "github": "",
       "description": "Sitio web estático para la promoción de gimnasios, diseñado con HTML y CSS. Incluye información sobre el gimnasio, horarios de clases y detalles de contacto.",
       "highlights": [
         "Diseño responsivo",
@@ -173,6 +175,8 @@
     },
     {
       "name": "Red bull",
+      "isActive": false,
+      "github": "",
       "description": "Tienda en línea de productos Red Bull, desarrollada con React, Context API, sin métodos de pago integrados.",
       "highlights": [
         "Diseño responsivo",
@@ -182,6 +186,8 @@
     },
     {
       "name": "Red bull",
+      "isActive": false,
+      "github": "",
       "description": "Tienda en línea de productos Red Bull, desarrollada con React, Context API y Firebase, sin métodos de pago integrados.",
       "highlights": [
         "React, Context API",
@@ -191,6 +197,8 @@
     },
     {
       "name": "Astro & Tailwind",
+      "isActive": false,
+      "github": "",
       "description": "Sitio web de dos páginas creado con Astro y TailwindCSS para aprender y experimentar con estas tecnologías.",
       "highlights": [
         "Desarrollado con Astro",
