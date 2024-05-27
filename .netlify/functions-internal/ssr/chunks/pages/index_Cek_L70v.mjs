@@ -1,4 +1,4 @@
-import { e as createComponent, r as renderTemplate, g as addAttribute, i as renderHead, j as renderSlot, h as createAstro, m as maybeRenderHead, k as renderComponent } from '../astro_CmIZ9Vc9.mjs';
+import { e as createComponent, r as renderTemplate, g as addAttribute, i as renderHead, j as renderSlot, h as createAstro, m as maybeRenderHead, k as renderComponent } from '../astro_Ht46YYI4.mjs';
 import 'kleur/colors';
 import 'html-escaper';
 import 'clsx';
@@ -8,7 +8,7 @@ import 'cssesc';
 const basics = {
 	name: "Baltasar Benitez",
 	label: "Fronted Developer React",
-	image: "/hero1.webp",
+	image: "me.webp",
 	email: "baltaarex363@gmail.com",
 	phone: "",
 	url: "https://midu.dev",
@@ -112,6 +112,8 @@ const skills = [
 const projects = [
 	{
 		name: "Arena Spot Gym",
+		isActive: false,
+		github: "",
 		description: "Sitio web estático para la promoción de gimnasios, diseñado con HTML y CSS. Incluye información sobre el gimnasio, horarios de clases y detalles de contacto.",
 		highlights: [
 			"Diseño responsivo",
@@ -121,6 +123,8 @@ const projects = [
 	},
 	{
 		name: "Red bull",
+		isActive: false,
+		github: "",
 		description: "Tienda en línea de productos Red Bull, desarrollada con React, Context API, sin métodos de pago integrados.",
 		highlights: [
 			"Diseño responsivo",
@@ -130,6 +134,8 @@ const projects = [
 	},
 	{
 		name: "Red bull",
+		isActive: true,
+		github: "",
 		description: "Tienda en línea de productos Red Bull, desarrollada con React, Context API y Firebase, sin métodos de pago integrados.",
 		highlights: [
 			"React, Context API",
@@ -139,6 +145,8 @@ const projects = [
 	},
 	{
 		name: "Astro & Tailwind",
+		isActive: false,
+		github: "",
 		description: "Sitio web de dos páginas creado con Astro y TailwindCSS para aprender y experimentar con estas tecnologías.",
 		highlights: [
 			"Desarrollado con Astro",
@@ -178,10 +186,6 @@ const $$Phone = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Phone Icon</title><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>`;
 }, "C:/Users/USUARIO/Documents/pepe/am/src/icons/Phone.astro", void 0);
 
-const $$X = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"></path></svg>`;
-}, "C:/Users/USUARIO/Documents/pepe/am/src/icons/X.astro", void 0);
-
 const $$LinkedIn = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<svg height="16" width="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>`;
 }, "C:/Users/USUARIO/Documents/pepe/am/src/icons/LinkedIn.astro", void 0);
@@ -199,13 +203,12 @@ const $$Hero = createComponent(($$result, $$props, $$slots) => {
   const { city, region } = location;
   const SOCIAL_ICONS = {
     GitHub: $$GitHub,
-    LinkedIn: $$LinkedIn,
-    X: $$X
+    LinkedIn: $$LinkedIn
   };
   const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
   const linkedUrl = linkedInfo?.url;
   const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" \u2022 ");
-  return renderTemplate`${renderComponent($$result, "Section", $$Section, { "data-astro-cid-anhloy43": true }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="container" data-astro-cid-anhloy43> <div class="info" data-astro-cid-anhloy43> <h1 data-astro-cid-anhloy43>${name}</h1> <h2 data-astro-cid-anhloy43>${label}</h2> <span data-astro-cid-anhloy43> ${renderComponent($$result2, "WorldMap", $$WorldMap, { "data-astro-cid-anhloy43": true })} ${city}, ${region} </span> <footer class="print" data-astro-cid-anhloy43> ${printInfo} </footer> <footer class="no-print" data-astro-cid-anhloy43> ${email && renderTemplate`<a${addAttribute(`mailto:${email}`, "href")}${addAttribute(`Enviar un correo electr\xF3nico a ${name} al correo ${email}`, "title")} target="_blank" rel="noopener noreferrer" data-astro-cid-anhloy43> ${renderComponent($$result2, "Mail", $$Mail, { "data-astro-cid-anhloy43": true })} </a>`} ${phone && renderTemplate`<a${addAttribute(`tel:${phone}`, "href")}${addAttribute(`Llamar por tel\xE9fono a ${name} al n\xFAmero ${phone}`, "title")} target="_blank" rel="noopener noreferrer" data-astro-cid-anhloy43> ${renderComponent($$result2, "Phone", $$Phone, { "data-astro-cid-anhloy43": true })} </a>`} ${profiles.map(({ network, url, username }) => {
+  return renderTemplate`${renderComponent($$result, "Section", $$Section, { "data-astro-cid-anhloy43": true }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="container" data-astro-cid-anhloy43> <div class="info" data-astro-cid-anhloy43> <h1 data-astro-cid-anhloy43>${name}</h1> <h2 data-astro-cid-anhloy43>${label}</h2> <span data-astro-cid-anhloy43> ${renderComponent($$result2, "WorldMap", $$WorldMap, { "data-astro-cid-anhloy43": true })} ${city}, ${region} </span> <footer class="print" data-astro-cid-anhloy43> ${printInfo} </footer> <footer class="no-print" data-astro-cid-anhloy43> ${email && renderTemplate`<a${addAttribute(`mailto:${email}`, "href")}${addAttribute(`Enviar un correo electr\xF3nico a ${name} al correo ${email}`, "title")} target="_blank" rel="noopener noreferrer" data-astro-cid-anhloy43> ${renderComponent($$result2, "Mail", $$Mail, { "data-astro-cid-anhloy43": true })} </a>`} ${phone && renderTemplate`<a${addAttribute(`tel:${phone}`, "href")}${addAttribute(`Llamar por tel\xE9fono a ${name} al n\xFAmero ${phone}`, "title")} target="_blank" rel="noopener noreferrer" data-astro-cid-anhloy43> ${renderComponent($$result2, "Phone", $$Phone, { "data-astro-cid-anhloy43": true })} </a>`} ${profiles.map(({ network, url }) => {
     const Icon = SOCIAL_ICONS[network];
     return renderTemplate`<a${addAttribute(url, "href")}${addAttribute(`Visitar el perfil de ${name} en ${network}`, "title")} target="_blank" rel="noopener noreferrer" data-astro-cid-anhloy43> ${renderComponent($$result2, "Icon", Icon, { "data-astro-cid-anhloy43": true })} </a>`;
   })} </footer> </div> <figure data-astro-cid-anhloy43> <img${addAttribute(image, "src")}${addAttribute(name, "alt")} data-astro-cid-anhloy43> </figure> </div> ` })} `;

@@ -186,7 +186,7 @@
     },
     {
       "name": "Red bull",
-      "isActive": false,
+      "isActive": true,
       "github": "",
       "description": "Tienda en línea de productos Red Bull, desarrollada con React, Context API y Firebase, sin métodos de pago integrados.",
       "highlights": [
